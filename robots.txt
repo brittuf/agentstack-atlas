@@ -34,4 +34,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://example.github.io/agentstack-atlas/sitemap.xml
+Sitemap: https://brittuf.github.io/agentstack-atlas/sitemap.xml
