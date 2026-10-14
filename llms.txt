@@ -1,0 +1,16 @@
+# AgentStack Atlas
+> Sourced catalog of 52 real agentic AI use cases, tool comparisons and a GEO playbook.
+
+- https://example.github.io/agentstack-atlas/
+- https://example.github.io/agentstack-atlas/use-cases/
+- https://example.github.io/agentstack-atlas/compare/ai-affiliate-programs/
+- https://example.github.io/agentstack-atlas/compare/newsletter-sponsorship-networks/
+- https://example.github.io/agentstack-atlas/compare/ai-voice-elevenlabs-vs-murf/
+- https://example.github.io/agentstack-atlas/compare/ai-visibility-tools/
+- https://example.github.io/agentstack-atlas/compare/automation-platforms-for-agents/
+- https://example.github.io/agentstack-atlas/compare/
+- https://example.github.io/agentstack-atlas/guides/geo-playbook/
+- https://example.github.io/agentstack-atlas/sponsor/
+- https://example.github.io/agentstack-atlas/newsletter/
+- https://example.github.io/agentstack-atlas/disclosure/
+- https://example.github.io/agentstack-atlas/privacy/
