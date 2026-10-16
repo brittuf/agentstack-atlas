@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI agents are getting passports | AgentStack Atlas</title><meta name="description" content="ShipStation&#x27;s Deckhand IT help desk agent, plus ServiceNow AI Passport, Palo Alto, Descope and Sophos agent-governance launches."><link rel="canonical" href="https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/">
+<style>*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1a1a1a;background:#fafafa}
+header,footer{background:#111;color:#eee}header a,footer a{color:#eee}nav{max-width:960px;margin:auto;padding:.8rem 1rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+nav .brand{font-weight:700;margin-right:auto;text-decoration:none}main{max-width:960px;margin:auto;padding:1rem}
+h1{line-height:1.2}table{border-collapse:collapse;width:100%;font-size:.92rem;display:block;overflow-x:auto}th,td{border:1px solid #ddd;padding:.45rem;text-align:left;vertical-align:top}th{background:#f0f0f0}
+.card{background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:.8rem 1rem;margin:.6rem 0}.tag{font-size:.75rem;padding:.05rem .4rem;border-radius:4px;background:#eef;margin-left:.3rem}
+.cat{font-size:.8rem;color:#555}input,select{font:inherit;padding:.5rem;width:100%;max-width:420px;margin:.3rem 0}.affmark{font-size:.7rem;color:#a60}
+.note{background:#fff8e1;border-left:4px solid #f0b400;padding:.6rem 1rem}.sponsor{border:2px dashed #999;padding:1rem;border-radius:8px;text-align:center;color:#555}
+footer{margin-top:2rem}footer div{max-width:960px;margin:auto;padding:1rem;font-size:.85rem}button{font:inherit;padding:.5rem 1rem}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "AgentStack Atlas", "url": "https://brittuf.github.io/agentstack-atlas/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Agents at Work #1: AI agents are getting passports", "description": "ShipStation's Deckhand IT help desk agent, plus ServiceNow AI Passport, Palo Alto, Descope and Sophos agent-governance launches.", "datePublished": "2026-10-16", "dateModified": "2026-10-16", "author": {"@type": "Organization", "name": "AgentStack Atlas"}, "mainEntityOfPage": "https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/"}</script></head>
+<body><header><nav><a class="brand" href="../../index.html">AgentStack Atlas</a><a href="../../index.html">Home</a><a href="../../use-cases/">Use cases</a><a href="../../compare/">Compare</a><a href="../../guides/geo-playbook/">GEO playbook</a><a href="../../newsletter/">Newsletter</a><a href="../../issues/">Issues</a><a href="../../ai-agents-for/">Small business</a><a href="../../sponsor/">Sponsor</a><a href="../../hire/">Hire us</a></nav></header><main><h1>Agents at Work #1: AI agents are getting passports</h1>
+<p><em>Week of October 12–16, 2026 · about a 6-minute read</em></p>
+<p>This week's theme: as companies move agents into production, the conversation is shifting from "can the agent do it?" to "who said the agent was allowed to?" Five vendors shipped agent governance features in two days. First, a real deployment worth stealing from.</p>
+<h2>Deployment of the week: ShipStation's "Deckhand" IT help desk agent</h2>
+<p>ShipStation Global built <strong>Deckhand</strong>, a Slack-based IT help desk agent on Amazon Bedrock AgentCore, and published the results on October 13. Per the AWS post:</p>
+<ul>
+<li>It launched in April 2026. In its first three months it handled <strong>1,935 messages</strong>, started <strong>1,221 agent conversations</strong> and opened <strong>409 Jira tickets</strong>.</li>
+<li>It replied to <strong>97.5%</strong> of messages. About a third of questions came in after hours, and Deckhand answered <strong>94%</strong> of those.</li>
+<li>Positive feedback rose from <strong>82% in April to 96% in June</strong> after the team revised the prompt and knowledge base based on complaints.</li>
+<li>The team estimates the 812 conversations that didn't become tickets saved <strong>roughly 406 hours</strong> over three months (assuming about 30 minutes per ticket).</li>
+</ul>
+<p><strong>What makes it work:</strong> a knowledge base built from Confluence, the intranet, and <em>resolved</em> Slack threads mined with a strict "only count it if the fix is visible" rule, plus ticket creation that needs a button click to confirm.</p>
+<p>Source: <a href="https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/" rel="noopener">AWS Machine Learning Blog, Oct 13, 2026</a></p>
+<h2>This week in agentic AI</h2>
+<p><strong>1. ServiceNow announces "AI Passport" for agents (Oct 15).</strong> It's a cryptographically signed credential that agents check at runtime to verify what they're authorized to do, with graduated responses up to a kill switch if an agent drifts. NVIDIA is a design and launch partner. ServiceNow says availability is expected in Q4 2026. <a href="https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx" rel="noopener">ServiceNow newsroom</a></p>
+<blockquote>Worth noting from the release: customer LTM says it has deployed 1,500 AI agents, <em>each assigned an employee ID and a manager</em>.</blockquote>
+<p><strong>2. Palo Alto Networks adds guardrails for Claude Enterprise and MCP traffic (Oct 15).</strong> Prisma AIRS now plugs into Claude Enterprise (Claude Code, Claude.ai, Claude Cowork) through inference hooks. Its AI Gateway inspects MCP traffic in both directions, blocking concealed instructions and redacting sensitive data. <a href="https://www.paloaltonetworks.com/blog/ai-security/agentic-innovation-meets-enterprise-control/" rel="noopener">Palo Alto Networks blog</a></p>
+<p><strong>3. Descope ships Agentic Identity Hub 3.0 (Oct 15).</strong> It adds an approval workflow for new internal agents (each gets a documented purpose, an owner and least-privilege access), MCP gateway integrations, and alternatives to static API keys such as mTLS and SPIFFE. <a href="https://www.descope.com/press-release/agentic-identity-hub-3" rel="noopener">Descope press release</a></p>
+<p><strong>4. Sophos makes AI Defense generally available (October).</strong> It finds unsanctioned AI tools and agents across device, network, identity and browser, and applies real-time guardrails. The release says Sophos X-Ops tracked an attacker using AI agents inside a customer network to build and test nearly 80 malware modules. <a href="https://www.sophos.com/en-us/press/press-releases/2026/10/sophos-launches-ai-defense-to-expose-shadow-ai-and-secure-ai-use-in-real-time" rel="noopener">Sophos press release</a></p>
+<p><strong>The pattern (our take):</strong> every one of these treats an agent like an employee or a workload identity: it has an owner, a scope and an audit trail. If you're deploying agents at a small company, you can copy that for free: write down what each agent may do, and who's responsible for it.</p>
+<h2>Tool spotlight: Make</h2>
+<p>If you want to build a Deckhand-style workflow without writing a backend, a visual automation platform is the usual starting point. Make says it connects 3,000+ native apps (per its own site). A simple first build: <em>new Slack message in #help → search a knowledge doc → draft a reply → post it only after a human clicks approve.</em></p>
+<p>→ <a href="https://www.make.com/" data-affiliate="make" rel="sponsored nofollow noopener">Try Make</a> <span class="affmark">aff*</span> <em>(affiliate link: we may earn a commission at no cost to you)</em></p>
+<h2>How-to tip: teach your agent when <strong>not</strong> to answer</h2>
+<p>The most underrated part of Deckhand is its "stay quiet" logic. Per the AWS post, it:</p>
+<ol>
+<li>Skips announcements, social chatter and human-to-human conversations.</li>
+<li>In threads, replies only to the original poster.</li>
+<li>Goes silent if a human helper already replied.</li>
+<li>Ignores messages that start by @mentioning a person.</li>
+</ol>
+<p>If your agent lives in a shared channel or inbox, write these rules into its instructions before you write anything else. An agent that jumps into every conversation gets muted fast.</p>
+<h2>Sponsor this slot</h2>
+<p>This spot is open. Reach readers who are building and buying AI agents: email <strong>agentstackatlas@mail.grokbot.com</strong>.</p>
+<hr>
+<p><em>Agents at Work is published by <a href="https://brittuf.github.io/agentstack-atlas/" rel="noopener">AgentStack Atlas</a>, a sourced catalog of real agentic AI deployments. Every fact above links to its source. Reply with deployments we should cover.</em></p><p><a href='../'>← All issues</a> · <a href='../../newsletter/'>Get it by email</a></p></main>
+<footer><div>Some links are affiliate links (marked <span class="affmark">aff*</span>); we may earn a commission at no cost to you. <a href="../../disclosure/">Affiliate disclosure</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sponsor/">Sponsor</a> · <a href="mailto:agentstackatlas@mail.grokbot.com">agentstackatlas@mail.grokbot.com</a> · Last updated 2026-10-16</div></footer></body></html>
