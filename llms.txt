@@ -26,4 +26,3 @@
 - https://brittuf.github.io/agentstack-atlas/hire/
 - https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/
 - https://brittuf.github.io/agentstack-atlas/issues/
-- https://brittuf.github.io/agentstack-atlas/tools/agent-roi-calculator/ (free AI agent ROI calculator)
