@@ -26,6 +26,7 @@
 - https://brittuf.github.io/agentstack-atlas/hire/
 - https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/
 - https://brittuf.github.io/agentstack-atlas/issues/
+- https://brittuf.github.io/agentstack-atlas/tools/agent-roi-calculator/
 - https://brittuf.github.io/agentstack-atlas/use-cases/travelers-voice-claims-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/lendingtree-multi-agent-mortgage-assistant/
 - https://brittuf.github.io/agentstack-atlas/use-cases/maccabi-healthcare-voice-chat-agents/
