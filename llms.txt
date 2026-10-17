@@ -27,6 +27,8 @@
 - https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/
 - https://brittuf.github.io/agentstack-atlas/issues/
 - https://brittuf.github.io/agentstack-atlas/tools/agent-roi-calculator/
+- https://brittuf.github.io/agentstack-atlas/tools/ai-citation-readiness-checker/
+- https://brittuf.github.io/agentstack-atlas/tools/
 - https://brittuf.github.io/agentstack-atlas/use-cases/travelers-voice-claims-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/lendingtree-multi-agent-mortgage-assistant/
 - https://brittuf.github.io/agentstack-atlas/use-cases/maccabi-healthcare-voice-chat-agents/
@@ -43,8 +45,12 @@
 - https://brittuf.github.io/agentstack-atlas/use-cases/avalara-avi-tax-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/hiscox-ai-underwriting-quotes/
 - https://brittuf.github.io/agentstack-atlas/use-cases/mhk-smartprominence-medical-review/
+- https://brittuf.github.io/agentstack-atlas/use-cases/synthpop-referral-to-order-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/advon-commerce-catalog-enrichment/
 - https://brittuf.github.io/agentstack-atlas/use-cases/pods-smartest-billboard-campaign/
 - https://brittuf.github.io/agentstack-atlas/use-cases/leads-io-automated-lead-qualification/
 - https://brittuf.github.io/agentstack-atlas/use-cases/trane-hvac-diagnostics-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/instalily-instaworkers-field-diagnosis/
+- https://brittuf.github.io/agentstack-atlas/use-cases/complyadvantage-agentic-alert-remediation/
+- https://brittuf.github.io/agentstack-atlas/use-cases/fifth-dimension-ellie-real-estate-underwriting/
+- https://brittuf.github.io/agentstack-atlas/use-cases/zenbusiness-velo-business-formation-assistant/
