@@ -45,3 +45,5 @@ footer{margin-top:3rem;border-top:1px solid var(--bd);background:rgba(5,6,15,.6)
 @media (max-width:640px){nav{gap:.3rem .8rem}nav .brand{width:100%}.hero{padding-top:2rem}main{padding:1rem}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 p.cat{text-transform:none;letter-spacing:0}main>p.cat:first-child{text-transform:uppercase;letter-spacing:.06em}
+.nlbox{position:relative;margin:2.2rem 0;padding:1.6rem 1.4rem;border-radius:18px;background:linear-gradient(var(--bg2),var(--bg2)) padding-box,linear-gradient(135deg,rgba(34,228,255,.7),rgba(166,107,255,.7)) border-box;border:1px solid transparent;box-shadow:0 0 40px -12px rgba(34,228,255,.45),0 0 60px -20px rgba(166,107,255,.45)}
+.nlbox h2{margin-top:0}.nlform{min-height:80px;margin:.6rem 0;max-width:560px}.nlform iframe{max-width:100%;border-radius:12px}
