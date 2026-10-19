@@ -42,6 +42,7 @@
 - https://brittuf.github.io/agentstack-atlas/pricing/perplexity/
 - https://brittuf.github.io/agentstack-atlas/pricing/chatgpt/
 - https://brittuf.github.io/agentstack-atlas/pricing/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/
 - https://brittuf.github.io/agentstack-atlas/use-cases/travelers-voice-claims-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/lendingtree-multi-agent-mortgage-assistant/
 - https://brittuf.github.io/agentstack-atlas/use-cases/maccabi-healthcare-voice-chat-agents/
