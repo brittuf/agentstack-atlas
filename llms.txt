@@ -31,6 +31,17 @@
 - https://brittuf.github.io/agentstack-atlas/tools/
 - https://brittuf.github.io/agentstack-atlas/briefs/
 - https://brittuf.github.io/agentstack-atlas/briefs/sample/
+- https://brittuf.github.io/agentstack-atlas/pricing/zapier/
+- https://brittuf.github.io/agentstack-atlas/pricing/n8n/
+- https://brittuf.github.io/agentstack-atlas/pricing/make/
+- https://brittuf.github.io/agentstack-atlas/pricing/lindy/
+- https://brittuf.github.io/agentstack-atlas/pricing/relevance-ai/
+- https://brittuf.github.io/agentstack-atlas/pricing/crewai/
+- https://brittuf.github.io/agentstack-atlas/pricing/gumloop/
+- https://brittuf.github.io/agentstack-atlas/pricing/cursor/
+- https://brittuf.github.io/agentstack-atlas/pricing/perplexity/
+- https://brittuf.github.io/agentstack-atlas/pricing/chatgpt/
+- https://brittuf.github.io/agentstack-atlas/pricing/
 - https://brittuf.github.io/agentstack-atlas/use-cases/travelers-voice-claims-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/lendingtree-multi-agent-mortgage-assistant/
 - https://brittuf.github.io/agentstack-atlas/use-cases/maccabi-healthcare-voice-chat-agents/
