@@ -24,6 +24,7 @@
 - https://brittuf.github.io/agentstack-atlas/guides/how-to-get-cited-by-chatgpt-perplexity/
 - https://brittuf.github.io/agentstack-atlas/compare/ai-affiliate-programs-list/
 - https://brittuf.github.io/agentstack-atlas/hire/
+- https://brittuf.github.io/agentstack-atlas/issues/002-ai-agents-get-a-budget/
 - https://brittuf.github.io/agentstack-atlas/issues/001-ai-agents-get-passports/
 - https://brittuf.github.io/agentstack-atlas/issues/
 - https://brittuf.github.io/agentstack-atlas/tools/agent-roi-calculator/
@@ -68,7 +69,6 @@
 - https://brittuf.github.io/agentstack-atlas/use-cases/complyadvantage-agentic-alert-remediation/
 - https://brittuf.github.io/agentstack-atlas/use-cases/fifth-dimension-ellie-real-estate-underwriting/
 - https://brittuf.github.io/agentstack-atlas/use-cases/zenbusiness-velo-business-formation-assistant/
-- https://brittuf.github.io/agentstack-atlas/stack/
 - https://brittuf.github.io/agentstack-atlas/stack/amazon-bedrock-agentcore/
 - https://brittuf.github.io/agentstack-atlas/stack/langgraph/
 - https://brittuf.github.io/agentstack-atlas/stack/model-context-protocol/
@@ -85,12 +85,13 @@
 - https://brittuf.github.io/agentstack-atlas/stack/lindy/
 - https://brittuf.github.io/agentstack-atlas/stack/crewai/
 - https://brittuf.github.io/agentstack-atlas/stack/relevance-ai/
+- https://brittuf.github.io/agentstack-atlas/stack/gumloop/
 - https://brittuf.github.io/agentstack-atlas/stack/dialzara/
 - https://brittuf.github.io/agentstack-atlas/stack/rosie/
 - https://brittuf.github.io/agentstack-atlas/stack/goodcall/
 - https://brittuf.github.io/agentstack-atlas/stack/smith-ai/
-- https://brittuf.github.io/agentstack-atlas/stack/servicetitan-ai-voice-agent/
-- https://brittuf.github.io/agentstack-atlas/stack/eliseai/
-- https://brittuf.github.io/agentstack-atlas/stack/gumloop/
 - https://brittuf.github.io/agentstack-atlas/stack/upfirst/
+- https://brittuf.github.io/agentstack-atlas/stack/servicetitan-ai-voice-agent/
 - https://brittuf.github.io/agentstack-atlas/stack/appfolio-realm-x/
+- https://brittuf.github.io/agentstack-atlas/stack/eliseai/
+- https://brittuf.github.io/agentstack-atlas/stack/
