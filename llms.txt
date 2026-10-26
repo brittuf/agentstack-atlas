@@ -44,6 +44,12 @@
 - https://brittuf.github.io/agentstack-atlas/pricing/chatgpt/
 - https://brittuf.github.io/agentstack-atlas/pricing/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/plumbers-hvac/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/dental/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/restaurants/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/auto-repair/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/property-managers/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-receptionists/for/
 - https://brittuf.github.io/agentstack-atlas/use-cases/travelers-voice-claims-agent/
 - https://brittuf.github.io/agentstack-atlas/use-cases/lendingtree-multi-agent-mortgage-assistant/
 - https://brittuf.github.io/agentstack-atlas/use-cases/maccabi-healthcare-voice-chat-agents/
