@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missed calls cost calculator (free) | AgentStack Atlas</title><meta name="description" content="Free calculator: estimate monthly and yearly revenue lost to missed calls, then compare that to AI receptionist plan prices from our tracker. Shareable via URL."><link rel="canonical" href="https://brittuf.github.io/agentstack-atlas/tools/missed-calls-calculator/">
+<meta name="theme-color" content="#05060f"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"><link rel="stylesheet" href="../../assets/atlas.css?v=4"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "AgentStack Atlas", "url": "https://brittuf.github.io/agentstack-atlas/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Missed calls cost calculator", "url": "https://brittuf.github.io/agentstack-atlas/tools/missed-calls-calculator/", "applicationCategory": "BusinessApplication", "offers": {"@type": "Offer", "price": "0"}}</script><script data-goatcounter="https://agentstackatlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><meta name="google-site-verification" content="4ld78_sNpXh2FLubDq6DK3Go3yyHPE9okMV3JNyV0a4" /></head>
+<body><a class="skip" href="#main">Skip to content</a><header><nav aria-label="Main"><a class="brand" href="../../index.html">AgentStack Atlas</a><a href="../../index.html">Home</a><a href="../../use-cases/">Use cases</a><a href="../../compare/">Compare</a><a href="../../guides/geo-playbook/">GEO playbook</a><a href="../../newsletter/">Newsletter</a><a href="../../issues/">Issues</a><a href="../../ai-agents-for/">Small business</a><a href="../../tools/">Tools</a><a href="../../pricing/">Pricing</a><a href="../../sponsor/">Sponsor</a><a href="../../briefs/">Briefs</a><a href="../../hire/">Hire us</a></nav></header><main id="main"><span class="eyebrow">Free tool</span>
+<h1>What are missed calls <span class="grad">costing you?</span></h1>
+<p class="lede">Estimate monthly and yearly revenue lost to unanswered calls, then compare that to AI receptionist plan prices from our <a href="../../pricing/ai-receptionists/">tracker</a>. Everything runs in your browser; nothing is sent anywhere. Results are shareable via the URL.</p>
+
+<div class="card" id="mcalc">
+<label>Trade
+<select id="trade" aria-label="Trade">
+<option value="plumbers-hvac">Plumbers and HVAC</option>
+<option value="dental">Dental clinics</option>
+<option value="restaurants">Restaurants</option>
+<option value="auto-repair">Auto repair shops</option>
+<option value="property-managers">Property managers</option>
+<option value="other">Other / custom</option>
+</select></label><br>
+<label>Inbound calls per week<br><input id="calls" type="number" min="0" step="1" value="50"></label><br>
+<label>Share of calls missed (%)<br><input id="miss" type="number" min="0" max="100" step="1" value="27"></label><br>
+<label>Average job / ticket value ($)<br><input id="job" type="number" min="0" step="1" value="350"></label><br>
+<label>Close rate on answered sales calls (%)<br><input id="close" type="number" min="0" max="100" step="1" value="30"></label><br>
+<label>Avg call length for cost compare (minutes)<br><input id="len" type="number" min="0.5" step="0.5" value="3"></label>
+<p class="cat" id="preset-note"></p>
+<button type="button" class="btn" id="copy-link">Copy shareable link</button>
+<span class="cat" id="copy-status" aria-live="polite"></span>
+</div>
+
+<div class="card" id="out" aria-live="polite"></div>
+<div class="card" id="cost-out" aria-live="polite"></div>
+
+<div class="note">
+<p><b>How the math works (your inputs, not a forecast):</b> missed calls/week = calls × miss% ÷ 100. Estimated jobs lost/week = missed × close% ÷ 100. Monthly lost revenue ≈ jobs/week × (52÷12) × job value. Yearly ≈ jobs/week × 52 × job value. The AI cost column uses the same plan math as our <a href="../../pricing/ai-receptionists/">AI receptionist pricing tracker</a>: cheapest listed plan at your recovered-call volume (missed calls treated as calls/month the agent would answer), with the call-length field converting to talk minutes for per-minute vendors.</p>
+<p><b>Sourced benchmarks you can paste in (or ignore):</b></p>
+<ul>
+<li><b>Missed / unanswered:</b> Invoca's May 23, 2024 home-services post reported <b>27%</b> of calls unanswered on its platform (<a href="https://www.invoca.com/blog/how-much-missed-sales-calls-cost-home-services-businesses" rel="noopener" target="_blank">Invoca</a>). Invoca's 2026 Home Services Lead Conversion Benchmarks Report says <b>52%</b> of callers speak with a person across its home-services customer base (so 48% do not), rising to 65%/73% answer rates when filtering calls over 15/30 seconds (<a href="https://www.invoca.com/reports/the-invoca-home-services-lead-conversion-benchmarks-report-2026" rel="noopener" target="_blank">Invoca 2026 report</a>). CallRail's Jan 14, 2025 release reported a <b>14%</b> missed-call rate for home services in its sample. These are vendor platform averages, not your shop.</li>
+<li><b>After-hours share:</b> ServiceTitan reported <b>10.7%–12.1%</b> of trades calls outside business hours in a sample of its customer accounts (May 2025–July 2026 fiscal window on their page) (<a href="https://www.servicetitan.com/guides/call-trends-in-the-trades" rel="noopener" target="_blank">ServiceTitan</a>). Useful if you only want to price after-hours coverage.</li>
+<li><b>Booking rate context:</b> In the same ServiceTitan piece, shops with 10 or fewer technicians booked <b>30%</b> of calls (median-based; their disclaimer says not industry-representative). The default close rate here is a <b>user-adjustable example</b>, not a cited industry average.</li>
+<li><b>Job value and weekly call volume:</b> defaults are <b>user-adjustable examples</b> (same spirit as the example volumes on our trade cost pages). Replace them with your own numbers from your phone system or CRM.</li>
+<li><b>Call length:</b> default 3 minutes matches the example on our receptionist calculator; it is an assumption for plan math, not a measured average.</li>
+</ul>
+<p>AI plan prices last checked on the vendor pages linked in the tracker (Dialzara/Rosie/Goodcall/Smith.ai/Upfirst/My AI Front Desk 2026-10-19; Answrr 2026-10-26). Taxes, phone numbers and add-ons excluded. This is not financial advice.</p>
+</div>
+
+<p>Next: <a href="../../pricing/ai-receptionists/">AI receptionist pricing + calculator</a> · <a href="../../pricing/ai-receptionists/for/">cost by trade</a> · <a href="../agent-roi-calculator/">full ROI calculator</a> · <a href="../../briefs/">get a research brief</a>.</p>
+
+<script>
+(function(){
+const V=[
+{"v":"Dialzara","src":"https://dialzara.com/pricing","u":"min","pl":[{"n":"Business Lite","p":29,"i":60,"o":.48},{"n":"Business Pro","p":99,"i":220,"o":.45},{"n":"Business Plus","p":199,"i":500,"o":.40},{"n":"Business Elite","p":349,"i":1000,"o":.35}]},
+{"v":"Rosie","src":"https://heyrosie.com/pricing","u":"min","pl":[{"n":"Professional","p":49,"i":250,"o":null},{"n":"Scale","p":149,"i":1000,"o":null},{"n":"Growth","p":299,"i":2000,"o":null}]},
+{"v":"Goodcall","src":"https://www.goodcall.com/pricing","u":"cust","pl":[{"n":"Starter","p":79,"i":100,"o":.79},{"n":"Growth","p":129,"i":500,"o":.26},{"n":"Scale","p":299,"i":2000,"o":.15}]},
+{"v":"Smith.ai (AI receptionist)","src":"https://smith.ai/pricing/ai-receptionist","u":"call","pl":[{"n":"Free","p":0,"i":25,"o":3},{"n":"Pro 75","p":150,"i":75,"o":2.5},{"n":"Pro 150","p":270,"i":150,"o":2.3},{"n":"Pro 300","p":500,"i":300,"o":2.17},{"n":"Enterprise 500","p":800,"i":500,"o":2.1}]},
+{"v":"Upfirst","src":"https://www.upfirst.ai/pricing","u":"call","pl":[{"n":"Starter","p":24.95,"i":30,"o":1.5},{"n":"Premium","p":59.95,"i":90,"o":1},{"n":"Pro","p":159.95,"i":300,"o":.75},{"n":"Scale","p":299,"i":600,"o":.7}]},
+{"v":"My AI Front Desk","src":"https://www.myaifrontdesk.com/pricing","u":"min","pl":[{"n":"Business-in-a-Box","p":99,"i":200,"o":null}]},
+{"v":"Answrr","src":"https://tryanswrr.com/pricing","u":"min","pl":[{"n":"Solo","p":49,"i":250,"o":.25},{"n":"Growth","p":99,"i":700,"o":.2},{"n":"Pro","p":199,"i":1600,"o":.15}]}
+];
+const U={min:"talk minutes",call:"calls",cust:"callers"};
+const PRESETS={
+"plumbers-hvac":{calls:50,miss:27,job:350,close:30,note:"Example defaults for a plumbing/HVAC shop. Miss % seeded from Invoca's 2024 home-services unanswered figure (27%); job value and close rate are editable examples, not industry averages."},
+"dental":{calls:80,miss:27,job:200,close:30,note:"Example defaults for a dental clinic. Miss % seeded from Invoca 2024 (27%); other fields are editable examples."},
+"restaurants":{calls:120,miss:27,job:45,close:40,note:"Example defaults for a restaurant (reservations/takeout). Miss % seeded from Invoca 2024 (27%); ticket value is an editable example."},
+"auto-repair":{calls:60,miss:27,job:400,close:30,note:"Example defaults for an auto shop. Miss % seeded from Invoca 2024 (27%); other fields are editable examples."},
+"property-managers":{calls:70,miss:27,job:250,close:25,note:"Example defaults for property management. Miss % seeded from Invoca 2024 (27%); other fields are editable examples."},
+"other":{calls:50,miss:27,job:350,close:30,note:"Custom trade. Miss % seeded from Invoca 2024 home-services unanswered figure (27%); change every field to your numbers."}
+};
+const ids=["trade","calls","miss","job","close","len"];
+function money(n){return (n<0?"-":"")+"$"+Math.abs(Math.round(n)).toLocaleString()}
+function best(v,q){var b=null;v.pl.forEach(function(p){var c;if(q<=p.i)c=p.p;else if(p.o!==null)c=p.p+(q-p.i)*p.o;else return;if(!b||c<b.c)b={n:p.n,c:c};});return b;}
+function shareUrl(){
+  const p=new URLSearchParams();
+  ids.forEach(function(k){p.set(k,document.getElementById(k).value);});
+  return location.pathname+(location.pathname.endsWith("/")?"":"/")+"?"+p.toString();
+}
+function run(){
+  const calls=+document.getElementById("calls").value||0;
+  const miss=+document.getElementById("miss").value||0;
+  const job=+document.getElementById("job").value||0;
+  const close=+document.getElementById("close").value||0;
+  const len=+document.getElementById("len").value||0;
+  const missedW=calls*miss/100;
+  const jobsW=missedW*close/100;
+  const monthly=jobsW*(52/12)*job;
+  const yearly=jobsW*52*job;
+  const missedM=missedW*(52/12);
+  document.getElementById("out").innerHTML=
+    "<h2>Estimated lost revenue</h2>"+
+    "<p><b>Missed calls:</b> "+missedW.toFixed(1)+" / week · ~"+missedM.toFixed(0)+" / month<br>"+
+    "<b>Jobs that might have closed:</b> "+jobsW.toFixed(2)+" / week<br>"+
+    "<b>Lost revenue (monthly):</b> "+money(monthly)+"<br>"+
+    "<b>Lost revenue (yearly):</b> "+money(yearly)+"</p>"+
+    "<p class=\"cat\">Uses a 52-week year and 52÷12 weeks per month. Replace every input with your phone-log numbers.</p>";
+  const rows=V.map(function(v){
+    const q=v.u==="min"?missedM*len:missedM;
+    const b=best(v,q);
+    return {v:v,q:q,b:b};
+  }).sort(function(a,b){return (a.b?a.b.c:1e9)-(b.b?b.b.c:1e9);});
+  const cheapest=rows.find(function(x){return x.b;});
+  const payback=cheapest&&monthly>cheapest.b.c?(cheapest.b.c/(monthly/12||1)):null;
+  let html="<h2>Vs AI receptionist cost (recovered missed calls)</h2>"+
+    "<p class=\"cat\">Volume priced: ~"+missedM.toFixed(0)+" answered calls/month"+(len?(" × "+len+" min"):"")+". Same plan math as the tracker.</p>"+
+    "<table><tr><th>Vendor</th><th>Cheapest plan at this volume</th><th>Est. monthly</th><th>Lost revenue ÷ cost</th></tr>";
+  rows.forEach(function(x){
+    const cost=x.b?x.b.c:null;
+    const mult=cost&&cost>0?(monthly/cost):null;
+    html+="<tr><td><a href=\""+x.v.src+"\" rel=\"nofollow noopener\" target=\"_blank\">"+x.v.v+"</a></td><td>"+
+      (x.b?x.b.n+" ("+Math.round(x.q).toLocaleString()+" "+U[x.v.u]+")":"Over largest listed plan")+"</td><td>"+
+      (x.b?("$"+x.b.c.toFixed(2)):("Custom quote"))+"</td><td>"+
+      (mult?(mult.toFixed(1)+"×"):"—")+"</td></tr>";
+  });
+  html+="</table>";
+  if(cheapest&&cheapest.b){
+    html+="<p>At these inputs, the cheapest listed option is <b>"+cheapest.v.v+"</b> at <b>$"+cheapest.b.c.toFixed(2)+"/mo</b>";
+    if(monthly>cheapest.b.c) html+=" — about <b>"+(monthly/cheapest.b.c).toFixed(1)+"×</b> below estimated monthly lost revenue";
+    html+=".</p>";
+  }
+  document.getElementById("cost-out").innerHTML=html;
+  if(history.replaceState){try{history.replaceState(null,"",shareUrl());}catch(e){}}
+}
+function applyPreset(slug,overwrite){
+  const p=PRESETS[slug]||PRESETS.other;
+  document.getElementById("preset-note").textContent=p.note;
+  if(overwrite){
+    document.getElementById("calls").value=p.calls;
+    document.getElementById("miss").value=p.miss;
+    document.getElementById("job").value=p.job;
+    document.getElementById("close").value=p.close;
+  }
+}
+const q=new URLSearchParams(location.search);
+let fromUrl=false;
+ids.forEach(function(k){
+  const x=q.get(k);
+  if(x!==null&&x!==""){
+    fromUrl=true;
+    const el=document.getElementById(k);
+    if(el) el.value=x;
+  }
+});
+if(!fromUrl) applyPreset(document.getElementById("trade").value,true);
+else applyPreset(document.getElementById("trade").value,false);
+document.getElementById("trade").addEventListener("change",function(){applyPreset(this.value,true);run();});
+["calls","miss","job","close","len"].forEach(function(k){
+  document.getElementById(k).addEventListener("input",run);
+});
+document.getElementById("copy-link").addEventListener("click",function(){
+  const url=location.origin+shareUrl();
+  const done=function(){document.getElementById("copy-status").textContent=" Link copied.";};
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(done).catch(function(){
+      prompt("Copy this link:",url);done();
+    });
+  } else {prompt("Copy this link:",url);done();}
+});
+run();
+})();
+</script>
+<div class="card cta-brief"><b>Want the numbers done for your shop?</b> A research brief looks at your real competitors, checks how AI search answers for your category, and ranks 5 AI opportunities with tools and costs. From $149. <a class="btn" href="../../briefs/">Get a brief →</a> <a href="../../briefs/sample/">See a sample</a></div></main>
+<footer><div>Some links are affiliate links (marked <span class="affmark">aff*</span>); we may earn a commission at no cost to you. <a href="../../disclosure/">Affiliate disclosure</a> · <a href="../../privacy/">Privacy</a> · <a href="../../sponsor/">Sponsor</a> · <a href="mailto:agentstackatlas@mail.grokbot.com">agentstackatlas@mail.grokbot.com</a> · Last updated 2026-11-06</div><div class="dir-badge" style="margin-top:14px;text-align:center"><a href="https://aiagentsdirectory.com/agent/agentstack-atlas" target="_blank" rel="noopener" title="Discover AgentStack Atlas on AI Agents Directory">
+  <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="AgentStack Atlas - Featured on AI Agents Directory" width="200" height="50" style="border-radius:10px;box-shadow:0 0 18px rgba(0,229,255,.25);opacity:.9" />
+</a></div></footer></body></html>
