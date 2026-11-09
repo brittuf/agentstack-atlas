@@ -129,3 +129,4 @@
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/eliseai/
 - https://brittuf.github.io/agentstack-atlas/stack/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-coding-agents/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-app-builders/
