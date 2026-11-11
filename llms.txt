@@ -130,3 +130,13 @@
 - https://brittuf.github.io/agentstack-atlas/stack/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-coding-agents/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-app-builders/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/dialzara/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/rosie/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/dental-clinics/goodcall/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/dental-clinics/upfirst/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/plumbers-hvac/smith-ai/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/plumbers-hvac/rosie/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/upfirst/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/my-ai-front-desk/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/restaurants/dialzara/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/restaurants/upfirst/
