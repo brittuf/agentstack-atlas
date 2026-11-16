@@ -141,3 +141,4 @@
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/restaurants/upfirst/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-coding-agents/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-app-builders/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-voice-agents/
