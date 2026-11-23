@@ -143,6 +143,7 @@
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-coding-agents/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-app-builders/
 - https://brittuf.github.io/agentstack-atlas/pricing/ai-voice-agents/
+- https://brittuf.github.io/agentstack-atlas/pricing/ai-support-agents/
 - https://brittuf.github.io/agentstack-atlas/stack/answrr/
 - https://brittuf.github.io/agentstack-atlas/stack/retell-ai/
 - https://brittuf.github.io/agentstack-atlas/stack/vapi/
