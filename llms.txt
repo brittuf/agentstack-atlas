@@ -129,7 +129,6 @@
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/goodcall/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/appfolio-realm-x/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/eliseai/
-- https://brittuf.github.io/agentstack-atlas/stack/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/dialzara/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/rosie/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/dental-clinics/goodcall/
@@ -158,4 +157,13 @@
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/retell-ai/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/plumbers-hvac/vapi/
 - https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/vapi/
-- https://brittuf.github.io/agentstack-atlas/stack/
+- https://brittuf.github.io/agentstack-atlas/stack/intercom-fin/
+- https://brittuf.github.io/agentstack-atlas/stack/zendesk-ai-agents/
+- https://brittuf.github.io/agentstack-atlas/stack/freshdesk-freddy-ai/
+- https://brittuf.github.io/agentstack-atlas/stack/gorgias/
+- https://brittuf.github.io/agentstack-atlas/stack/tidio-lyro/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/restaurants/tidio-lyro/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/auto-repair-shops/tidio-lyro/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/plumbers-hvac/tidio-lyro/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/property-managers/freshdesk-freddy-ai/
+- https://brittuf.github.io/agentstack-atlas/ai-agents-for/dental-clinics/intercom-fin/
